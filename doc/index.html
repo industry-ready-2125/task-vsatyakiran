@@ -5,39 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #eeede1;
+        }
         main{
             margin: 0 auto;
             width: 80%;
             text-align: center;
         }
-        h1{
-            color: blue;
-        }
-        p{
-            font-size: 20px;
+        .basic-details{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            align-content: center;
         }
         .intrested{
             margin-top: 20px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             text-align: left;
+            align-content: center;
+            ul{
+                list-style: none;
+            }
         }
         img{
             width: 300px;
             height: 100px;
+            border: 2px solid rgb(7, 6, 6);
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Know Me</h1>
-        <p><strong>Roll No: </strong>21131A4248</p>
-        <p><strong>Name: </strong>V Satya Kiran</p>
-        <p><strong>Branch: </strong>Computer Science and Engineering(Ai & Ml)</p>
-        <p><strong>College: </strong>Gayatri Vidya Parishad College of Engineering</p>
-        <p><strong>Year: </strong>4th</p>
-        <p><strong>Phone: </strong>8919995716</p>
-        <p><strong>Email: vsatyakiran@gmail.com</strong></p>
+        <div class="basic-details">
+            <p><strong>Roll No: </strong>21131A4248</p>
+            <p><strong>Name: </strong>V Satya Kiran</p>
+            <p><strong>Branch: </strong>Computer Science and Engineering(Ai & Ml)</p>
+            <p><strong>College: </strong>Gayatri Vidya Parishad College of Engineering</p>
+            <p><strong>Year: </strong>4th</p>
+            <p><strong>Phone: </strong>8919995716</p>
+            <p><strong>Email: vsatyakiran@gmail.com</strong></p>
+        </div>
         <div class="intrested">
             <div class="subcontainer">
                 <h2>Intrested in:</h2>
